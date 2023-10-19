@@ -1,0 +1,203 @@
+.div1{
+    width: 400px; 
+    height: 30px; 
+    background-color: blue;
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+
+.div2{
+    width: 400px; 
+    height: 30px; 
+    background-color: red;
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+
+.div3{
+    width: 400px; 
+    height: 30px; 
+    background-color: green;
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+
+.div4{
+    width: 400px; 
+    height: 30px; 
+    background-color: purple;
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+
+.div5 {
+    width: 130px; 
+    height: 30px; 
+    background-color: blue;
+    padding-top: 10px;
+    float: left;
+    padding-left: 5px;
+}
+
+.div6 {
+    width: 130px; 
+    height: 30px; 
+    background-color: purple;
+    padding-top: 10px;
+    float: right;
+    margin-right: 1500px;
+    padding-left: 5px;
+}
+
+.div7 {
+    width: 130px; 
+    height: 30px; 
+    background-color: red;
+    padding-top: 10px;
+    float: left;
+    margin-top: 50px;
+    padding-left: 5px;
+}
+
+.div8 {
+    width: 130px; 
+    height: 30px; 
+    background-color: green;
+    padding-top: 10px;
+    float: right;
+    margin-right: 1500px;
+    margin-top: 50px;
+    padding-left: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.div9 {
+    width: 130px; 
+    height: 30px; 
+    background-color: blue;
+    padding-top: 10px;
+    float: left;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+
+.div10 {
+    width: 130px; 
+    height: 30px; 
+    background-color: purple;
+    padding-top: 10px;
+    float: right;
+    margin-right: 1500px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+
+.div11 {
+    width: 130px; 
+    height: 30px; 
+    background-color: red;
+    padding-top: 10px;
+    float: left;
+    margin-top: 50px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+
+.div12 {
+    width: 130px; 
+    height: 30px; 
+    background-color: green;
+    padding-top: 10px;
+    float: right;
+    margin-right: 1500px;
+    margin-top: 50px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+
+.central{
+    width: 300px; 
+    height: 140px; 
+    border: 2px solid green; 
+    border-radius: 1px; 
+}
+
+.item1{
+    width: 280px; 
+    height: 30px; 
+    background-color: gray;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.item2{
+    width: 280px; 
+    height: 30px; 
+    background-color: gray;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.item3{
+    width: 280px; 
+    height: 30px; 
+    background-color: gray;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.item1, .item2, .item3 {
+    width: 280px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: gray;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+    color: yellow; 
+}
+
+.item1:hover, .item2:hover, .item3:hover {
+    background-color: yellow;
+    color: gray; 
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    width: 500px; 
+    height: 205px; 
+    border: 2px solid #ccc; 
+    background-color: gray;
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.image-box {
+    flex: 1; 
+    padding: 10px; 
+}
+
+.image-box img {
+    width: 80%; 
+    height: auto;
+}
+
+.text-box {
+    flex: 1; 
+    padding: 10px;
+    color: white;
+}
+
+
+
